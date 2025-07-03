@@ -75,9 +75,9 @@ a:hover, a:focus {
   width: auto;
   height: auto;
   transform: translate(-50%, -50%);
-  opacity: 0.50;
+  opacity: .5;
   object-fit: cover;
-  filter: blur(6px) brightness(1.1) saturate(1.2);
+  filter: blur(6px) brightness(1.1) saturate(5);
   pointer-events: none;
 }
 
