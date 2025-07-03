@@ -1,4 +1,10 @@
 @media (max-width: 600px) {
+  html, body {
+    padding: 0 !important;
+    margin: 0 !important;
+    width: 100vw !important;
+    overflow-x: hidden !important;
+  }
   .zine-images {
     margin: 0 !important;
     max-width: 100vw !important;
@@ -11,6 +17,7 @@
     padding: 0 !important;
     margin: 0 !important;
     box-shadow: none !important;
+    display: block;
   }
 }
 /* Zine images styling */
