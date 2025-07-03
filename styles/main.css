@@ -75,7 +75,7 @@ a:hover, a:focus {
   width: auto;
   height: auto;
   transform: translate(-50%, -50%);
-  opacity: 0.10;
+  opacity: 0.50;
   object-fit: cover;
   filter: blur(6px) brightness(1.1) saturate(1.2);
   pointer-events: none;
@@ -94,6 +94,7 @@ a:hover, a:focus {
   mix-blend-mode: lighten;
   animation: blurFlow 8s ease-in-out infinite alternate;
 }
+
 
 @keyframes blurFlow {
   0% {
