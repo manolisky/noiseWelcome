@@ -4,7 +4,7 @@
   right: 2vw;
   bottom: 2vh;
   z-index: 10;
-  background: rgba(30,30,30,0.85);
+  background: rgba(80,80,80,0.85);
   border: none;
   border-radius: 1.5em;
   padding: 0.5em 1em 0.2em 1em;
@@ -13,13 +13,15 @@
   align-items: center;
   box-shadow: 0 2px 12px 0 rgba(0,0,0,0.18);
   cursor: pointer;
-  transition: background 0.2s, box-shadow 0.2s, transform 0.1s;
+  transition: background 0.2s, box-shadow 0.2s, transform 0.1s, opacity 0.2s;
   outline: none;
+  opacity: 0.5;
 }
 .down-arrow-zine:focus, .down-arrow-zine:hover {
-  background: rgba(60,60,60,0.95);
+  background: rgba(120,120,120,0.95);
   box-shadow: 0 4px 18px 0 rgba(0,0,0,0.28);
   transform: translateY(2px) scale(1.04);
+  opacity: .7;
 }
 .down-arrow-label {
   color: #fff;
